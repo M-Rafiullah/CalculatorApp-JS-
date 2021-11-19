@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Calculator App</h1>
+    <div class="main-work">
+        <input id="result" class="text-btn" type="text">
+        <div>
+            <button class="ac-btn" onclick="acbtn('DEL')">DEL</button>
+            <button class="clear-btn" onclick="clearbtn('CLR')">CLR</button>
+            
+        </div>
+        <div>
+            <button class="small-btn" onclick="mybtn('7')">7 </button>
+            <button class="small-btn" onclick="mybtn('8')">8 </button>
+            <button class="small-btn" onclick="mybtn('9')">9 </button>
+            <button class="small-btn" onclick="mybtn('+')">+</button>
+        </div>
+        <div>
+            <button class="small-btn" onclick="mybtn('4')">4 </button>
+            <button class="small-btn" onclick="mybtn('5')" >5 </button>
+            <button class="small-btn" onclick="mybtn('6')">6 </button>
+            <button class="small-btn" onclick="mybtn('-')">- </button>
+        </div>
+        <div>
+            <button class="small-btn" onclick="mybtn('1')">1 </button>
+            <button class="small-btn" onclick="mybtn('2')">2 </button>
+            <button class="small-btn" onclick="mybtn('3')">3 </button>
+            <button class="small-btn" onclick="mybtn('*')"> x</button>
+        </div>
+        <div>
+            <button class="zero-btn" onclick="mybtn('0')">0 </button>
+            <button class="small-btn"  onclick="mybtn('.')">. </button>
+            <button class="small-btn"onclick="mybtn('/')" >/ </button>
+            <button class="equal-btn" onclick="equlbtn('=')" >= </button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
